@@ -8,7 +8,7 @@
   ATmega32U4.
 
   2025-02-25 - modified by @zedstarr to add Fn-X keypresses as printed 
-  on the front edge of the UK 5/5mx keyboards's keycaps
+  on the front edge of the UK 5/5mx keyboards's keycaps and mimic CapsLock
    
 */
 
