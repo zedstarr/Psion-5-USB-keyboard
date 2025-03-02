@@ -91,6 +91,7 @@
 #define KEY_SEMICOL    0x3B
 #define BRIGHT_UP      0x00
 #define BRIGHT_DN      0x00
+#define KEY_PIPE       0x7C
 
 
 
@@ -112,6 +113,6 @@ static int fnSpecialKeys [NROWS] [NCOLS] = {
   { 0        ,0         ,0         ,0         ,0              ,KEY_MULT       ,0          ,0          ,0        ,0      ,0            ,0       },
   { KEY_DIV  ,KEY_PLUS  ,KEY_MINUS ,KEY_EQU   ,KEY_SEMICOL    ,0              ,0          ,0          ,0        ,0      ,KEY_LEFT_GUI ,0       },
   { KEY_CAPS ,0         ,0         ,0         ,0              ,0              ,0          ,0          ,0        ,0      ,0            ,0       },
-  { 0        ,0         ,0         ,BRIGHT_DN ,BRIGHT_UP      ,KEY_PGDOWN     ,0          ,0          ,0        ,0      ,0            ,0       },
+  { 0        ,0         ,KEY_PIPE  ,BRIGHT_DN ,BRIGHT_UP      ,KEY_PGDOWN     ,0          ,0          ,0        ,0      ,0            ,0       },
   { 0        ,0         ,0         ,0         ,0              ,0              ,0          ,0          ,0        ,0      ,0            ,0       }
 };
